@@ -10,10 +10,10 @@ from time import sleep
 
 #adding all the keys/secrets etc for my app in twitter
 
-consumer_key = 'fwRz6YA68kRNfkpFMBGtqzZ9w' 
-consumer_secret = 'bxOnREG77yGMxvhzbGfCIPRrklTV8pQ8lsm7xcytvREFQhp5SX' 
-access_token = '978965805953101824-iJIwxBM32gXc8NwHz2n5OI4mzqFE4UH' 
-access_token_secret = 'R6PTnlg594g02CCrTPGlDbO1Wqj495qDLIycCtT6H2ENF' 
+consumer_key = '' 
+consumer_secret = '' 
+access_token = '-' 
+access_token_secret = '' 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret) 
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
